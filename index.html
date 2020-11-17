@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora IMC</title>
+        <link rel="stylesheet" href="css/estilo.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        
+        <div id="container">
+
+
+            <div id="caixa-conteudo">
+                <!-- Título da página -->
+                <header>
+                    <h1>Calculadora de IMC</h1>
+                </header>
+
+                <!-- Postagem de introdução sobre IMC -->
+                <section>
+                    <h3>Antes de tudo, o que é IMC?</h3>
+                    <p>
+                        IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.
+                    </p>
+    
+                    <h3>Por que é importante saber o IMC?</h3>
+                    <p>
+                        Saber o IMC é importante para que se possa saber se o peso está de acordo com a altura da pessoa, o que, no caso das crianças, é importante para saber se o desenvolvimento da criança está acontecendo de acordo com o esperado, além de ser importante para saber o risco de desenvolver alguma doença.
+                    </p>
+    
+                    <h3>O que fazer para melhorar o IMC?</h3>
+                    <p>
+                        Para melhorar o IMC é importante verificar se está acima ou abaixo do que é considerado normal. Quando o IMC está na faixa de magreza, é importante consultar o nutricionista para que, além de ser feita uma avaliação completa, seja indicado um plano alimentar que foque no aumento de peso de forma saudável.
+                    </p>
+                    <p>
+                        Por outro lado, quando o IMC está na faixa do sobrepeso ou da obesidade, pode ser indicado pelo nutricionista a realização de uma alimentação com mais restrição calórica, além de ser também indicada a prática de atividade física regular, pois assim é possível acelerar o metabolismo e favorecer a perda de peso, o que influencia diretamente no IMC.
+                    </p>
+                </section>
+                
+            </div>
+
+            <div id="caixa-calculo">
+                <!-- Formulário -->
+                <section>
+                    <h3>Como saber seu IMC?</h3>
+                    <p>Coloque os seus dados na calculadora a seguir e saiba qual é o seu IMC:</p>
+                </section>
+        
+                <form>
+                    <!-- Nome -->
+                    <label for="nomeUsuario">Seu nome</label><br>
+                    <input type="text" id="nomeUsuario"><br><br>
+        
+                    <!-- Sexo -->
+                    <label for="sexo">Sexo</label><br>
+                    <select id="sexo">
+                        <option>Selecionar</option>
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                    </select><br><br>
+        
+                    <!-- Altura -->
+                    <label for="altura">Altura</label><br>
+                    <input type="text" id="altura" placeholder="Exemplo: 1,70"><span> m</span><br><br>
+        
+                    <!-- Peso -->
+                    <label for="peso">Peso</label><br>
+                    <input type="text" id="peso" placeholder="Exemplo: 64,5"><span> kg</span><br><br>
+        
+                    <input type="button" value="Calcular" id="btn" onclick="calcularIMC()">
+                </form>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,101 @@
+/**** Estrutura da página ****/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../imagens/fundo5.jpg);
+}
+
+span {
+    font-weight: bold;
+}
+
+#container {
+    display: flex;
+    height: fit-content;
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+    background: whitesmoke;
+}
+
+#caixa-conteudo {
+    margin: 10px;
+    margin-left: 18px;
+    padding: 15px;
+    width: 60%;
+}
+
+#caixa-calculo {
+    margin: 10px;
+    margin-left: 1px;
+    padding: 15px;
+    width: 30%;
+}
+
+#caixa-resultado {
+    background-color: #d6d3d3;
+    margin: 10px;
+    margin-left: 18px;
+    padding: 15px;
+    width: 94%;
+}
+
+#caixa-resultado h4 {
+    font-size: 2em;
+}
+
+/**** Estrutura do formulário ****/
+
+form {
+    background-color: #d6d3d3;
+    width: fit-content;
+    padding: 10px;
+    box-shadow: 10px 10px black;
+}
+
+label {
+    font-weight: 600;
+}
+
+#btn {
+    background-color: red;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/**** Estrutura da tabela ****/
+
+table {
+    border: 5px solid grey;
+    margin: auto;
+}
+
+thead {
+    background-color: #cedfdb;
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid grey;
+    padding: 7px;
+}
+
+.pessimo {
+    background-color: red;
+}
+
+.ruim {
+    background-color: orange;
+}
+
+.regular {
+    background-color: yellow;
+}
+
+.bom {
+    background-color: green;
+}
